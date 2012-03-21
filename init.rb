@@ -6,7 +6,7 @@ require 'dispatcher'
 Redmine::Plugin.register :redmine_attachments_database_storage do
   name 'Redmine Attachments Database Storage plugin'
   author 'Andrey Kolashtov <andrey.kolashtov@flant.ru>'
-  description 'This is a plugin for Redmine which allows to storage attachments in database'
+  description 'This is a plugin for Redmine which allows to store attachments in database'
   version '0.0.1'
   url 'https://github.com/flant/redmine_attachments_database_storage'
   author_url 'https://github.com/kolashtov'
