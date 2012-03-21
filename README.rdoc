@@ -1,3 +1,13 @@
 = Redmine attachments database storage plugin
 
 This is a plugin for Redmine which allows to store attachments in database.
+
+== Installation
+
+rake db:migrate:plugin NAME=redmine_attachments_database_storage
+
+== Deinstallation
+
+rake db:migrate:plugin NAME=redmine_attachments_database_storage VERSION=0
+
+
