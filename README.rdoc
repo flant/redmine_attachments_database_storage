@@ -1,0 +1,3 @@
+= Redmine attachments database storage plugin
+
+This is a plugin for Redmine which allows to storage attachments in database.
