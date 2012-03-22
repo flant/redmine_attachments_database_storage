@@ -4,10 +4,13 @@ This is a plugin for Redmine which allows to store attachments in database.
 
 == Installation
 
+You must tune up mysql server increasing 'max_allowed_packet' value in my.cnf up, e.g. to 64M
+
 rake db:migrate:plugin NAME=redmine_attachments_database_storage
 
 == Deinstallation
 
-rake db:migrate:plugin NAME=redmine_attachments_database_storage VERSION=0
+TODO: migrate all files from database to disk.
 
+rake db:migrate:plugin NAME=redmine_attachments_database_storage VERSION=0
 
